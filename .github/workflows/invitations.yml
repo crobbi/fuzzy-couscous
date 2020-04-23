@@ -8,7 +8,7 @@ jobs:
     name: Add collaborator!
     runs-on: ubuntu-latest
     steps:
-      - uses: etcadinfinitum/inviteme@master
+      - uses: etcadinfinitum/inviteme@dev
         name: Perform invitation action
         env:
           # REQUIRED
